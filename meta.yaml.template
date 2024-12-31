@@ -1,0 +1,50 @@
+{% set version = "0.7.13" %}
+
+package:
+  name: aws-c-mqtt
+  version: {{ version }}
+
+source:
+  url: https://github.com/awslabs/aws-c-mqtt/archive/v{{ version }}.tar.gz
+  sha256: 04503c704f6d4fba5b0a470a01a96fa2ed702bfa897b0d38071477b0b70ccf82
+  patches:                               # [s390x]
+    - 0001-skip-failing-s390x-test.patch # [s390x]
+
+build:
+  number: 0
+  run_exports:
+    - {{ pin_subpackage("aws-c-mqtt", max_pin="x.x.x") }}
+
+requirements:
+  build:
+    - cmake
+    - {{ compiler('c') }}
+    - ninja-base
+    - patch  # [s390x]
+  host:
+    - aws-c-common 0.8.5
+    - aws-c-io 0.13.10
+    - aws-c-http 0.6.25
+
+test:
+  commands:
+    - test -f $PREFIX/lib/libaws-c-mqtt${SHLIB_EXT}  # [unix]
+    - test -f $PREFIX/include/aws/mqtt/mqtt.h  # [unix]
+    - if not exist %LIBRARY_INC%\\aws\\mqtt\\mqtt.h exit 1          # [win]
+    - if not exist %PREFIX%\\Library\\bin\\aws-c-mqtt.dll exit 1  # [win]
+
+about:
+  home: https://github.com/awslabs/aws-c-mqtt
+  license: Apache-2.0
+  license_family: Apache
+  license_file: LICENSE
+  summary: C99 implementation of the MQTT
+  description: |
+    C99 implementation of the MQTT 3.1.1 and MQTT 5 specifications.
+  dev_url: https://github.com/awslabs/aws-c-mqtt
+  doc_url: https://github.com/awslabs/aws-c-mqtt
+
+extra:
+  recipe-maintainers:
+    - xhochy
+    - conda-forge/aws-sdk-cpp
