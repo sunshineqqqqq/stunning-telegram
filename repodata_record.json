@@ -1,0 +1,23 @@
+{
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "aws-c-common >=0.8.5,<0.8.6.0a0",
+    "aws-c-http >=0.6.25,<0.6.26.0a0",
+    "aws-c-io >=0.13.10,<0.13.11.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "fn": "aws-c-mqtt-0.7.13-h2bbff1b_0.conda",
+  "license": "Apache-2.0",
+  "md5": "0db2a57dc4dc25f59040928f89ad0785",
+  "name": "aws-c-mqtt",
+  "sha256": "fb05654a41c69a1953396d29eb7e96e698e5d378302eea02741ea8ecb30ad07d",
+  "size": 66410,
+  "subdir": "win-64",
+  "timestamp": 1706746839000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/aws-c-mqtt-0.7.13-h2bbff1b_0.conda",
+  "version": "0.7.13"
+}

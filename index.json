@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "h2bbff1b_0",
+  "build_number": 0,
+  "depends": [
+    "aws-c-common >=0.8.5,<0.8.6.0a0",
+    "aws-c-http >=0.6.25,<0.6.26.0a0",
+    "aws-c-io >=0.13.10,<0.13.11.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "aws-c-mqtt",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1706746839018,
+  "version": "0.7.13"
+}

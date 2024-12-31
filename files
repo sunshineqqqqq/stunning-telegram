@@ -1,0 +1,10 @@
+Library/bin/aws-c-mqtt.dll
+Library/bin/elastipubsub.exe
+Library/include/aws/mqtt/client.h
+Library/include/aws/mqtt/exports.h
+Library/include/aws/mqtt/mqtt.h
+Library/include/aws/mqtt/private/mqtt_client_test_helper.h
+Library/lib/aws-c-mqtt.lib
+Library/lib/aws-c-mqtt/cmake/aws-c-mqtt-config.cmake
+Library/lib/aws-c-mqtt/cmake/shared/aws-c-mqtt-targets-release.cmake
+Library/lib/aws-c-mqtt/cmake/shared/aws-c-mqtt-targets.cmake
