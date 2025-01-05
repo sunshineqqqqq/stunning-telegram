@@ -1,0 +1,62 @@
+{
+  "build": "py312haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "click >=5.0",
+    "python >=3.12,<3.13.0a0"
+  ],
+  "extracted_package_dir": "E:\\SOFTWARE\\ANACONDA\\pkgs\\python-dotenv-0.21.0-py312haa95532_0",
+  "files": [
+    "Lib/site-packages/dotenv/__init__.py",
+    "Lib/site-packages/dotenv/__main__.py",
+    "Lib/site-packages/dotenv/__pycache__/__init__.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/__main__.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/cli.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/ipython.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/main.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/parser.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/variables.cpython-312.pyc",
+    "Lib/site-packages/dotenv/__pycache__/version.cpython-312.pyc",
+    "Lib/site-packages/dotenv/cli.py",
+    "Lib/site-packages/dotenv/ipython.py",
+    "Lib/site-packages/dotenv/main.py",
+    "Lib/site-packages/dotenv/parser.py",
+    "Lib/site-packages/dotenv/py.typed",
+    "Lib/site-packages/dotenv/variables.py",
+    "Lib/site-packages/dotenv/version.py",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/INSTALLER",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/LICENSE",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/METADATA",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/RECORD",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/REQUESTED",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/WHEEL",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/direct_url.json",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/entry_points.txt",
+    "Lib/site-packages/python_dotenv-0.21.0.dist-info/top_level.txt",
+    "Scripts/dotenv-script.py",
+    "Scripts/dotenv.exe",
+    ".nonadmin"
+  ],
+  "fn": "python-dotenv-0.21.0-py312haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "E:\\SOFTWARE\\ANACONDA\\pkgs\\python-dotenv-0.21.0-py312haa95532_0",
+    "type": 1
+  },
+  "md5": "0b5dee9e6e50ed47a2623620790d40e3",
+  "name": "python-dotenv",
+  "package_tarball_full_path": "E:\\SOFTWARE\\ANACONDA\\pkgs\\python-dotenv-0.21.0-py312haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "defaults/win-64::python-dotenv==0.21.0=py312haa95532_0[md5=0b5dee9e6e50ed47a2623620790d40e3]",
+  "sha256": "1c2609f3c012d64d9d5e901ab850912d46baec297e3a0f13818926fec02835d2",
+  "size": 55283,
+  "subdir": "win-64",
+  "timestamp": 1699475130000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/python-dotenv-0.21.0-py312haa95532_0.conda",
+  "version": "0.21.0"
+}
